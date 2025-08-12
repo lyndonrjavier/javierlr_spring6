@@ -1,0 +1,87 @@
+2025-08-12 08:58:41 [main] INFO  c.spring.iocdi.app.autowiring.Target -  --> Target() called
+2025-08-12 08:58:41 [main] INFO  c.s.i.app.autowiring.AutowiringDemo - Created target? true
+2025-08-12 08:58:41 [main] INFO  c.s.i.app.autowiring.AutowiringDemo - Injected bar? false
+2025-08-12 08:58:41 [main] INFO  c.s.i.app.autowiring.AutowiringDemo - Injected fooOne? 
+2025-08-12 08:58:41 [main] INFO  c.s.i.app.autowiring.AutowiringDemo - Injected fooTwo? 
+2025-08-12 09:03:30 [main] INFO  c.s.i.app.autowiring.AnotherTarget -  --> AnotherTarget#setFooOne(Foo) called
+2025-08-12 09:03:30 [main] INFO  c.s.i.app.autowiring.AnotherTarget -  --> AnotherTarget#setFooTwo(Foo) called
+2025-08-12 09:03:30 [main] INFO  c.s.i.app.autowiring.AnotherTarget -  --> AnotherTarget#setBar(Bar) called
+2025-08-12 09:03:30 [main] INFO  c.s.i.a.a.TypeAutowiringDemo - anotherTarget: Created anotherTarget? true
+2025-08-12 09:03:30 [main] INFO  c.s.i.a.a.TypeAutowiringDemo - anotherTarget: Injected bar? true
+2025-08-12 09:03:30 [main] INFO  c.s.i.a.a.TypeAutowiringDemo - anotherTarget: Injected fooOne? 9b9357ee
+2025-08-12 09:03:30 [main] INFO  c.s.i.a.a.TypeAutowiringDemo - anotherTarget: Injected fooTwo? 9b9357ee
+2025-08-12 09:16:05 [main] INFO  c.s.i.app.autowiring.AnotherTarget -  --> AnotherTarget#setFooOne(Foo) called
+2025-08-12 09:16:05 [main] INFO  c.s.i.app.autowiring.AnotherTarget -  --> AnotherTarget#setFooTwo(Foo) called
+2025-08-12 09:16:05 [main] INFO  c.s.i.app.autowiring.AnotherTarget -  --> AnotherTarget#setBar(Bar) called
+2025-08-12 09:16:05 [main] INFO  c.s.i.a.a.TypeAutowiringDemo - anotherTarget: Created anotherTarget? true
+2025-08-12 09:16:05 [main] INFO  c.s.i.a.a.TypeAutowiringDemo - anotherTarget: Injected bar? true
+2025-08-12 09:16:05 [main] INFO  c.s.i.a.a.TypeAutowiringDemo - anotherTarget: Injected fooOne? 062257af
+2025-08-12 09:16:05 [main] INFO  c.s.i.a.a.TypeAutowiringDemo - anotherTarget: Injected fooTwo? 062257af
+2025-08-12 09:16:44 [main] INFO  c.spring.iocdi.app.autowiring.Target -  --> Target() called
+2025-08-12 09:16:44 [main] INFO  c.s.i.a.a.ConstructorAutowiringDemo - Created target? true
+2025-08-12 09:16:44 [main] INFO  c.s.i.a.a.ConstructorAutowiringDemo - Injected bar? false
+2025-08-12 09:16:44 [main] INFO  c.s.i.a.a.ConstructorAutowiringDemo - Injected fooOne? 
+2025-08-12 09:16:44 [main] INFO  c.s.i.a.a.ConstructorAutowiringDemo - Injected fooTwo? 
+2025-08-12 10:16:37 [main] INFO  c.s.i.a.a.bytype.AnotherTarget -  --> AnotherTarget#setFooOne(Foo) called
+2025-08-12 10:16:37 [main] INFO  c.s.i.a.a.bytype.AnotherTarget -  --> AnotherTarget#setFooTwo(Foo) called
+2025-08-12 10:16:37 [main] INFO  c.s.i.a.a.bytype.AnotherTarget -  --> AnotherTarget#setBar(Bar) called
+2025-08-12 10:16:37 [main] INFO  c.s.i.a.a.bytype.TypeAutowiringDemo - anotherTarget: Created anotherTarget? true
+2025-08-12 10:16:37 [main] INFO  c.s.i.a.a.bytype.TypeAutowiringDemo - anotherTarget: Injected bar? true
+2025-08-12 10:16:37 [main] INFO  c.s.i.a.a.bytype.TypeAutowiringDemo - anotherTarget: Injected fooOne? 32b39590
+2025-08-12 10:16:37 [main] INFO  c.s.i.a.a.bytype.TypeAutowiringDemo - anotherTarget: Injected fooTwo? 32b39590
+2025-08-12 10:52:48 [main] INFO  c.s.i.a.a.bytype.AnotherTarget -  --> AnotherTarget#setFooOne(Foo) called
+2025-08-12 10:52:49 [main] INFO  c.s.i.a.a.bytype.AnotherTarget -  --> AnotherTarget#setFooTwo(Foo) called
+2025-08-12 10:52:49 [main] INFO  c.s.i.a.a.bytype.AnotherTarget -  --> AnotherTarget#setBar(Bar) called
+2025-08-12 10:52:49 [main] INFO  c.s.i.a.a.bytype.TypeAutowiringDemo - anotherTarget: Created anotherTarget? true
+2025-08-12 10:52:49 [main] INFO  c.s.i.a.a.bytype.TypeAutowiringDemo - anotherTarget: Injected bar? true
+2025-08-12 10:52:49 [main] INFO  c.s.i.a.a.bytype.TypeAutowiringDemo - anotherTarget: Injected fooOne? 9d83f2ed
+2025-08-12 10:52:49 [main] INFO  c.s.i.a.a.bytype.TypeAutowiringDemo - anotherTarget: Injected fooTwo? 9d83f2ed
+2025-08-12 10:54:12 [main] INFO  c.s.i.a.a.constructor.Target -  --> Target() called
+2025-08-12 10:54:12 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Created target? true
+2025-08-12 10:54:12 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected bar? false
+2025-08-12 10:54:12 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooOne? 
+2025-08-12 10:54:12 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooTwo? 
+2025-08-12 10:55:31 [main] INFO  c.s.i.a.a.constructor.Target -  --> Target(Foo, Bar) called
+2025-08-12 10:55:31 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Created target? true
+2025-08-12 10:55:31 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected bar? true
+2025-08-12 10:55:31 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooOne? a64a540f
+2025-08-12 10:55:31 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooTwo? 
+2025-08-12 10:57:28 [main] INFO  c.s.i.a.a.constructor.Target -  --> Target(Foo) called
+2025-08-12 10:57:28 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Created target? true
+2025-08-12 10:57:28 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected bar? false
+2025-08-12 10:57:28 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooOne? 4a24ab9c
+2025-08-12 10:57:28 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooTwo? 
+2025-08-12 10:58:08 [main] INFO  c.s.i.a.a.constructor.Target -  --> Target() called
+2025-08-12 10:58:08 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Created target? true
+2025-08-12 10:58:08 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected bar? false
+2025-08-12 10:58:08 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooOne? 
+2025-08-12 10:58:08 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooTwo? 
+2025-08-12 11:04:45 [main] INFO  c.s.i.a.a.constructor.Target -  --> Target() called
+2025-08-12 11:04:45 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Created target? true
+2025-08-12 11:04:45 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected bar? false
+2025-08-12 11:04:45 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooOne? 
+2025-08-12 11:04:45 [main] INFO  c.s.i.a.a.c.ConstructorAutowiringDemo - Injected fooTwo? 
+2025-08-12 11:25:21 [main] INFO  c.s.i.a.a.byname.AnotherTarget -  --> AnotherTarget#setFooOne(Foo) called
+2025-08-12 11:25:52 [main] INFO  c.s.i.a.a.byname.AnotherTarget -  --> AnotherTarget#setFooOne(Foo) called
+2025-08-12 11:32:48 [main] INFO  c.s.i.a.a.byname.AnotherTarget -  --> AnotherTarget#setFooOne(Foo) called
+2025-08-12 11:32:48 [main] INFO  c.s.i.a.a.byname.AnotherTarget -  --> AnotherTarget#setFooTwo(Foo) called
+2025-08-12 11:32:48 [main] INFO  c.s.i.a.a.byname.AnotherTarget -  --> AnotherTarget#setBar(Bar) called
+2025-08-12 11:32:48 [main] INFO  c.s.i.a.a.b.ByNameAutowiringDemo - anotherTarget: Created anotherTarget? true
+2025-08-12 11:32:48 [main] INFO  c.s.i.a.a.b.ByNameAutowiringDemo - anotherTarget: Injected bar? true
+2025-08-12 11:32:48 [main] INFO  c.s.i.a.a.b.ByNameAutowiringDemo - anotherTarget: Injected fooOne? 2bbd69bb
+2025-08-12 11:32:48 [main] INFO  c.s.i.a.a.b.ByNameAutowiringDemo - anotherTarget: Injected fooTwo? bb87e3ac
+2025-08-12 11:37:20 [main] INFO  c.s.i.a.a.byname.AnotherTarget -  --> AnotherTarget#setFooOne(Foo) called
+2025-08-12 11:37:20 [main] INFO  c.s.i.a.a.byname.AnotherTarget -  --> AnotherTarget#setFooTwo(Foo) called
+2025-08-12 11:37:20 [main] INFO  c.s.i.a.a.byname.AnotherTarget -  --> AnotherTarget#setBar(Bar) called
+2025-08-12 11:37:20 [main] INFO  c.s.i.a.a.b.ByNameAutowiringDemo - anotherTarget: Created anotherTarget? true
+2025-08-12 11:37:20 [main] INFO  c.s.i.a.a.b.ByNameAutowiringDemo - anotherTarget: Injected bar? true
+2025-08-12 11:37:20 [main] INFO  c.s.i.a.a.b.ByNameAutowiringDemo - anotherTarget: Injected fooOne? 779cc475
+2025-08-12 11:37:20 [main] INFO  c.s.i.a.a.b.ByNameAutowiringDemo - anotherTarget: Injected fooTwo? 1795caec
+2025-08-12 12:15:31 [main] INFO  c.s.i.a.a.pickle.TrickyTarget -  --> TrickyTarget() called
+2025-08-12 12:15:31 [main] INFO  c.s.i.a.a.pickle.TrickyTarget -  --> Property fooOne set
+2025-08-12 12:15:31 [main] INFO  c.s.i.a.a.pickle.TrickyTarget -  --> Property fooTwo set
+2025-08-12 12:15:31 [main] INFO  c.s.i.a.a.pickle.TrickyTarget -  --> Property bar set
+2025-08-12 12:15:31 [main] INFO  c.s.i.a.autowiring.pickle.PickleDemo - target: Created target? true
+2025-08-12 12:15:31 [main] INFO  c.s.i.a.autowiring.pickle.PickleDemo - target: Injected bar? true
+2025-08-12 12:15:31 [main] INFO  c.s.i.a.autowiring.pickle.PickleDemo - target: Injected fooOne? com.spring.iocdi.app.autowiring.pickle.FooImplOne@38831718[id=one:8c4db1c8]
+2025-08-12 12:15:31 [main] INFO  c.s.i.a.autowiring.pickle.PickleDemo - target: Injected fooTwo? com.spring.iocdi.app.autowiring.pickle.FooImplTwo@2250b9f2[id=two:736567a3]

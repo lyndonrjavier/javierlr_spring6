@@ -1,0 +1,20 @@
+2025-08-11 14:26:29 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-11 14:26:29 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-11 14:26:29 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-11 14:26:29 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.event.internalEventListenerProcessor
+2025-08-11 14:26:29 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.event.internalEventListenerFactory
+2025-08-11 14:26:29 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - beanNamingCfg
+2025-08-11 14:26:29 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - simplebean-81ac9ac0
+2025-08-11 14:26:29 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - anotherSimpleBean
+2025-08-11 14:33:31 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-11 14:33:31 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-11 14:33:31 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-11 14:33:31 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.event.internalEventListenerProcessor
+2025-08-11 14:33:31 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - org.springframework.context.event.internalEventListenerFactory
+2025-08-11 14:33:31 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - beanNamingCfg
+2025-08-11 14:33:31 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - simplebean-74b7d490
+2025-08-11 14:33:31 [main] DEBUG c.s.i.app.beannaming.BeanNamingDemo - anotherSimpleBean
+2025-08-11 15:01:38 [main] INFO  c.s.i.a.i.NonSingletonDemo - Identity Equal?: false
+2025-08-11 15:01:38 [main] INFO  c.s.i.a.i.NonSingletonDemo - Value Equal:? false
+2025-08-11 15:01:38 [main] INFO  c.s.i.a.i.NonSingletonDemo - com.spring.iocdi.app.instantationmode.Singer@4bff7da0
+2025-08-11 15:01:38 [main] INFO  c.s.i.a.i.NonSingletonDemo - com.spring.iocdi.app.instantationmode.Singer@3f1d2e23

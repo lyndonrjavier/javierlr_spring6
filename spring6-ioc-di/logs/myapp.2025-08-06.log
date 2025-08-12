@@ -1,0 +1,4 @@
+2025-08-06 09:37:35 [main] INFO  c.s.i.a.c.MessageRendererImpl -  --> Constructor called via Constructor Injection.
+2025-08-06 09:37:35 [main] INFO  c.s.i.a.c.MessageRendererImpl -  --> Setter called via Setter Injection.
+2025-08-06 09:37:35 [main] INFO  c.s.i.a.c.MessageProviderImpl - MessageProvider getMessage() method called
+2025-08-06 09:37:35 [main] INFO  c.s.i.a.c.MessageRendererImpl - Hello World!
